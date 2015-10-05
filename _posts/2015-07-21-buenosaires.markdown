@@ -1,7 +1,7 @@
 ---
 title: Buenos Aires
 layout: post
-permalink: works/buenosaires
+permalink: works/bsas
 img: bsas.jpg
 img_quantity: 5
 material: Acrílico sobre lienzo, lana
