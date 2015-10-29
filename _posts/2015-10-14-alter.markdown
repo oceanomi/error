@@ -1,0 +1,10 @@
+---
+title: Alter ego
+layout: post
+permalink: works/alter
+img: alter.jpg
+img_quantity: 5
+material: Acrílico sobre lienzo, metal, alambre de acero, cinta adhesiva
+size: 50cm x 50cm
+
+---
