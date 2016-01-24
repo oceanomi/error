@@ -200,6 +200,13 @@ header {
     /* -o-background-size: cover; */
 }
 
+header .container {
+    background-attachment: scroll;
+    background-image: url(./img/background-tile-off.png);
+    background-position: 126px 126px;
+    background-repeat: no-repeat;
+}
+
 header .language {
     padding-top: 10px;
 }
@@ -255,9 +262,10 @@ header .intro-text .intro-heading {
 }
 
 .main-text {
-    font-size: 1.2em;
+    font-size: 14px;
     margin-bottom: 40px;
     text-align: justify;
+    font-family: sans-serif;
 }
 
 section {
@@ -372,8 +380,13 @@ section h3.section-subheading {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 25px 0 0;
     text-align: center;
+    background-attachment: scroll;
+    background-image: url(./img/footer-gradient.png);
+    background-position: 0% 0%;
+    background-repeat: repeat-x;
+    height: 26px;
 }
 
 footer span.copyright {
