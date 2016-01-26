@@ -213,6 +213,10 @@ header .links li {
     background-color: #f7f7f7;
 }
 
+header .links li:hover {
+    background-color: #e7e7e7;
+}
+
 header .language {
     padding-top: 10px;
     font-weight: bold;
@@ -391,6 +395,10 @@ section h3.section-subheading {
 }
 
 footer {
+    background-color: #f7f7f7;
+}
+
+footer .end {
     padding: 25px 0 0;
     text-align: center;
     background-attachment: scroll;
