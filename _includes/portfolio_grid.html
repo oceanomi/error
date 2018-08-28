@@ -1,47 +1,26 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h3 class="thin">Mortal. Imperfecta. Con dudas.</h3>
-                    <p class="main-text">La aguja debe pasar por abajo pero va por arriba; es mejor que luego gire a la derecha pero a veces se olvida. Choca contra la otra aguja, arrastra un poco de su lana hacia el territorio de enfrente: es una lucha. El traspaso de material a veces viene con un sonido metálico, pero en general es silencioso y constante. Ese ritmo repetitivo, que como una marea, va en busca de un error que dé respuesta al exterior. Ir hacia al fondo a encontrar. Venir de allí si hace falta. Mostrarse: como yo ahora ante usted. Desvestirse, que no es lo mismo que desnudarse. Salir a pasear por el campo con los zapatos puestos en el pié equivocado. Tener calor y sed y estar en el desierto. Nadar en una bañadera. No sacarse el jabón de los ojos. Despertarse al mediodía. Escuchar zumbidos de mosquitos todo el día. Ser el fantasma de alguien. Tomar el camino más corto. No poder despedirse. Siempre llegar a tiempo. Temerle a la luz. No tener hijos. Tenerlos. Ver un eclipse desde la luna. Salir del túnel. Entender mapas. Dolor corporal y buena memoria. No poder oler. Jet lag. 10.000 kilómetros de distancia. Bajar la vista. Dormirse en el mar. Ponerse a decir la verdad.</p>
-                </div>
-            </div>
-            <div class="row">
-            {% assign sortedPosts = site.posts | sort: 'date' %}
-            {% for post in sortedPosts %}
-                <div class="col-md-8 portfolio-item">
-                    <a id="{{  post.img | replace:'.jpg','' }}" href="/{{ post.permalink }}.html" class="portfolio-link">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/works/{{ post.img | replace:'.jpg','-thumbnail.jpg' }}" class="img-responsive" alt="{{ post.title }}">
-                    </a>
-                </div>
-                <div class="col-md-4 portfolio-item">
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.material }}</p>
-                        <p class="text-muted"><strong>{{ post.size }}</strong></p>
-                        <p class="text-muted"><strong>{{ post.content | replace:'<!--break-->','...<!--break-->' | split:'<!--break-->' | first }}</strong></p>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            {% endfor %}
-            </div>
-            <div class="row">
-              <div class="col-md12">
-                <div class="portfolio-item">
-                  <div class="portfolio-caption">
-                    <h4>Fin y principio</h4>
-                    <p class="text-muted">Fibra acrílica, lienzo, algodón, lana, alambre, nylon, poliéster, viscosa</p>
-                    <p class="text-muted"><strong>280cm x 55cm</strong></p>
-                  </div>
-                </div>
-                <img width="100%" src="img/works/fin-y-principio.png" class="img-responsive" alt="Fin y principio">
-              </div>
-            </div>
-        </div>
-    </section>
+<section class="portfolio">
+  <p class="main-text">Tejer fue un hobbie tardío, que una amiga me enseñó en una tarde en Estambul. Nunca pasé de la forma rectangular y dos variaciones de puntos. Lo único utilitario que sé tejer son bufandas de un estilo muy amateur: llenas de asimetrías y amor. Pero ellas me iniciaron en una producción marcada por distracciones y omisiones de carácter único e irrepetible, pero sobre todo, por el alivio que causa el saberse imperfecta.</p>
+  <p class="main-text">Entonces comencé a tejer de manera desmesurada. Ya no bufandas sino formas creadas a partir de un deseo impaciente. Busqué la grandeza en los detalles, lo incompleto como norma, todo para llegar a lo no permanente, como las lanas, hilos, alambres; como las manos que tejen; como la cabeza que pone nombres; como los ojos que miran los árboles afuera; como todo lo que morirá uno de estos días. Y así surgió ERROR, ya convertido en un ejercicio para aceptar la mortalidad. Ser como una Penélope de la llamada mediana edad: que teje a presente; sin esperar que nada ni nadie regrese.</p>
+  <p class="main-text">Mi formación y años de trabajo en el periodismo me han dado entrenamiento en probar cosas diferentes: desde ser corresponsal de guerra, escribir un libro, editar blogs, incursionar en guiones cinematográficos, trabajar en el campo humanitario, o realizar un documental en Irak. Por eso no me sorprende el aventurarme en un nuevo campo. La experiencia textil me devuelve al presente, me da un descanso del futurismo, respiro y tejo. Siento que todos deberíamos parar y hacerlo un rato. Tejer en paz.</p>
+  <div class="grid">
+    {% assign sortedPosts = site.posts | sort: 'date' %}
+    {% for post in sortedPosts %}
+    <div class="portfolio-item">
+      <a id="{{  post.img | replace:'.jpg','' }}" href="/{{ post.permalink }}.html" class="portfolio-link">
+        <img src="img/works/{{ post.img | replace:'.jpg','-thumbnail.jpg' }}" class="img-responsive" alt="{{ post.title }}">
+      </a>
+    </div>
+    <div class="portfolio-caption">
+      <a id="{{  post.img | replace:'.jpg','' }}" href="/{{ post.permalink }}.html" class="portfolio-link">
+        <h4>{{ post.title }}</h4>
+        <p class="text-muted">{{ post.material }}</p>
+        <p class="text-muted"><strong>{{ post.size }}</strong></p>
+        <p class="text-muted"><strong>{{ post.content | replace:'<!--break-->','...<!--break-->' | split:'<!--break-->' | first }}</strong></p>
+        <p class="text-muted">Serie: <strong>{{ post.series }}</strong></p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  <a href="/index.html#"><button>Volver</button></a>
+</section>

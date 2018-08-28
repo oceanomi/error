@@ -6,5 +6,6 @@ img: patagonia.jpg
 img_quantity: 4
 material: Acrílico sobre lienzo, lana
 size: 100cm x 100cm
+series: Mortal. Imperfecta. Con dudas.
 
 ---

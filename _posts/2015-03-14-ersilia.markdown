@@ -6,6 +6,7 @@ img: ersilia.jpg
 img_quantity: 3
 material: Acrílico sobre lienzo, fibra acrílica, algodón
 size: 3 x 90cm x 30cm
+series: Mortal. Imperfecta. Con dudas.
 
 ---
 

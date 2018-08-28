@@ -6,6 +6,6 @@ img: religion.jpg
 img_quantity: 3
 material: Acrílico sobre lienzo, fibra acrílica
 size: 115cm x 90cm
-text:
+series: Mortal. Imperfecta. Con dudas.
 
 ---

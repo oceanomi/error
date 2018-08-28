@@ -6,5 +6,6 @@ img: rabat.jpg
 img_quantity: 3
 material: Pigmento en polvo, acrílico sobre lienzo, fibra acrílica
 size: 100cm x 50cm
+series: Mortal. Imperfecta. Con dudas.
 
 ---
