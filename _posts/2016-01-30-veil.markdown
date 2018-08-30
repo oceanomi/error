@@ -1,0 +1,12 @@
+---
+title: Velo
+layout: post
+permalink: works/veil
+img: veil.jpg
+img_quantity: 3
+material: Tela sobre lienzo, fibra acrílica.
+size: 73cm x 93cm
+series: Mortal. Imperfecta. Con dudas.
+
+---
+

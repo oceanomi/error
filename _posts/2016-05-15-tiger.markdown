@@ -1,0 +1,11 @@
+---
+title: Tigre
+layout: post
+permalink: works/tiger
+img: tiger.jpg
+img_quantity: 4
+material: Tela sobre lienzo, fibra acrílica.
+size: 80cm x 60cm
+series: Mortal. Imperfecta. Con dudas.
+
+---
