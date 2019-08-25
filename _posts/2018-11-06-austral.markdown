@@ -1,0 +1,11 @@
+---
+title: Austral
+layout: post
+permalink: works/austral
+img: austral.jpg
+img_quantity: 4
+material: Acrílico sobre lienzo, lana, fibra acrílica, algodón.
+size: 80cm x 80cm
+series: Ubicación
+
+---
