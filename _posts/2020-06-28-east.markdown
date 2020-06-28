@@ -1,0 +1,13 @@
+---
+title: Al Este de alguna parte
+layout: post
+permalink: works/north
+img: east.jpg
+img_quantity: 5
+material: Acrílico sobre lienzo, lana, fibra acrílica, algodón.
+size: 80cm x 60cm
+series: Ubicación
+
+---
+
+Inspirado en Serbia.
